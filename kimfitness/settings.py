@@ -25,7 +25,7 @@ SECRET_KEY = '38f!7xvlj4ngt7z@t4s)jht69xncv!_qptyxfg)^)gq9ov4hv='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://kimfitness.herokuapp.com/', '127.0.0.1']
 
 LOGIN_URL ='login'
 LOGIN_REDIRECT_URL = 'home'
