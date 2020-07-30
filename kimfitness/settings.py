@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '38f!7xvlj4ngt7z@t4s)jht69xncv!_qptyxfg)^)gq9ov4hv='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['https://kimfitness.herokuapp.com/', '127.0.0.1']
+ALLOWED_HOSTS = ['kimfitness.herokuapp.com', '127.0.0.1']
 
 LOGIN_URL ='login'
 LOGIN_REDIRECT_URL = 'home'
